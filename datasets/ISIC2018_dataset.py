@@ -6,6 +6,11 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
 
+# 在运行 python train.py 之前，先覆盖路径
+import os
+
+# 强制修改数据集路径
+ROOT_DIR = '/kaggle/input/isic2018/ISIC2018'  # 或者确认后的实际路径
 
 # ==========================================
 # 可视化工具函数
